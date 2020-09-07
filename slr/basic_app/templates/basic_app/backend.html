@@ -1,0 +1,6 @@
+{% extends 'basic_app/basic_app_base.html' %}
+<title>Index Page</title>
+{% block body_block %}
+    <h1>Welcome to the Back End section.</h1>
+    <a class="btn btn-primary" href="{% url 'basic_app:index' %}">Back to home</a>
+{% endblock %}

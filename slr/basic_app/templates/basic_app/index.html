@@ -1,0 +1,7 @@
+{% extends 'basic_app/basic_app_base.html' %}
+<title>Index Page</title>
+{% block body_block %}
+    <h1>Welcome to WSoC.</h1>
+    <a class="btn btn-primary" href="{% url 'basic_app:frontend' %}">Front End</a>
+    <a class="btn btn-primary" href="{% url 'basic_app:backend' %}">Back End</a>
+{% endblock %}
