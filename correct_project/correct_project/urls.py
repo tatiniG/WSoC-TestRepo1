@@ -1,4 +1,4 @@
-"""WSoC_SLR_2002 URL Configuration
+"""correct_project URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
