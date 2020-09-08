@@ -14,3 +14,7 @@ class FrontEndView(TemplateView):
 
 class BackEndView(TemplateView):
     template_name = 'basic_app/backend.html'
+
+
+class FrontEndSubmissionView(TemplateView):
+    template_name = 'basic_app/frontend_submission.html'
