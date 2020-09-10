@@ -31,16 +31,18 @@ git clone https://github.com/Open-Source-Community-VIT-AP/WSoC-TestRepo.git
 This clones the repository into whichever directory in the system that you want the project to reside in.
 Now, in order to create your own branch using git, you can use the following command. 
 ```shell
-git branch branch_28bce7339
+git branch your-branch-name
 ```
 
 This creates your new branch, which is named **branch_28bce7339**.
 In order to switch to your new branch, you must use the following command.
 
 ```shell
-git checkout branch_28bce7339
+git checkout your-branch-name
 ```
-<img>
+<p align="center">
+    <img src="assets/new_branch.PNG" alt="creating a new branch">
+</p>
 
 This switches to your new branch, and you can now start working on the repository, on your personal branch.
 
@@ -72,9 +74,13 @@ python manage.py runserver
 
 If everything has been done and installed correctly, the above given command should give you an output like this.
 
-<img>
+<p align="center">
+    <img src="assets/runserver_snip.PNG" alt="Running the server">
+</p>
 
 This means that you are able to run the server.
 In the end, you should see a screen like this, after opening up the local server on any web browser.
 
-<img>
+<p align="center">
+    <img src="assets/endwindow.PNG" alt="End Window">
+</p>
