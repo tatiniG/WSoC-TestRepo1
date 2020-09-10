@@ -9,7 +9,7 @@ In case, you wish to learn more about WSoC, please redirect yourself to the [web
 ## Details on how to apply for shortlisting
   - Clone the Repository to your local system.
   - Create a new child branch to work on, seperate from the master branch.
-  - The branch must follow a particular naming convention - *branch_registrationno*, example : **branch_28bce7339**
+  - The branch must follow a particular naming convention - *branch_registrationno*, example : **branch_28bce7339**, so that it becomes easier for us in processing your application.
   - You can work on either the frontend or the backend challenges, depending on whichever area you wish to focus on.
   - After finishing any task, commit, and push, to the branch that you've created.
   - Upon completion of all the tasks, send a pull request in order to merge your branch onto the master branch signifying your submission.
@@ -21,6 +21,8 @@ In case, you wish to learn more about WSoC, please redirect yourself to the [web
 
 ### Back End
  - Intermediate level knowledge of Python
+ 
+ **Kindly Note:** You can choose either of these options. If you wish to, you can work on both as well.
 
 ## Resources for setting up the Workspace
 ### Cloning and branching the project onto your local system
@@ -36,6 +38,11 @@ This clones the repository into whichever directory in the system that you want 
 Now, in order to create your own branch using git, you can use the following command. 
 ```shell
 git branch your-branch-name
+```
+Replace your branch name in place of "your-branch-name" in the above command.
+For example:
+```shell
+git branch branch_28bce7339
 ```
 
 This creates your new branch, which is named **branch_28bce7339**.
