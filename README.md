@@ -3,15 +3,12 @@ Welcome to WSoC, an initiative by the Open Source Community at VIT-AP.\
 In case, you wish to learn more about WSoC, please redirect yourself to the [website](https://www.wsocbyosc.com).
 
 ## Details on how to apply for shortlisting
-  - One must create a new branch to work on, seperate from the master branch.
-  - After cloning the project to their system, thye must work on either the frontend or the backend challenges, depending on whatever area they wish to focus on.
-  - After finishing every task, they must commit, and push, to the branch that they've created.
-  - Upon completion of all the tasks, they must send a pull request in order to merge into the master branch signifying their completion of the tasks.
- 
-## Before you begin
- - [GIT](https://docs.github.com/en/enterprise/2.13/user/articles/cloning-a-repository) Keep in mind that one must be able to clone the project to their system.
- - [Python](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) One must be able to set up a virtualenv, or set up Django in their base python interpreter, in order to utilize Django.
- - [Django](https://www.djangoproject.com/start/) One must be able to run the server after setting it up in their system using Django commands.
+  - Clone the Repository to your local system.
+  - Create a new child branch to work on, seperate from the master branch.
+  - The branch must follow a particular naming convention - *branch_registrationno*, example : **branch_28bce7339**
+  - You can work on either the frontend or the backend challenges, depending on whichever area you wish to focus on.
+  - After finishing any task, commit, and push, to the branch that you've created.
+  - Upon completion of all the tasks, send a pull request in order to merge your branch onto the master branch signifying your submission.
 
 ## Project prerequisites
 ### Front End
@@ -20,3 +17,47 @@ In case, you wish to learn more about WSoC, please redirect yourself to the [web
 
 ### Back End
  - Intermediate level knowledge of Python
+
+## Resources for setting up the Workspace
+### Cloning and branching the project onto your local system
+
+Remember that you must already have [git](https://git-scm.com/downloads) pre-installed in your system, in order to use it for the process of cloning the repository into your local computer.
+
+In order to clone the repository after you install and set up git on your device, you should execute the following command as given below.
+
+```shell
+git clone https://github.com/Open-Source-Community-VIT-AP/WSoC-TestRepo.git
+```
+This clones the repository into whichever directory in the system that you want the project to reside in.
+Now, in order to create your own branch using git, you can use the following command. 
+```shell
+git branch branch_28bce7339
+```
+
+This creates your new branch, which is named **branch_28bce7339**.
+In order to switch to your new branch, you must use the following command.
+
+```shell
+git checkout branch_28bce7339
+```
+
+This switches to your new branch, and you can now start working on the repository, on your personal branch.
+
+### Setting up the Django Ecosystem
+
+Remember that you must have python, and pip installed in your local computer before you can install Django.
+
+The below command automatically installs all the components required for basic Django usage, using the pip package manager.
+
+```shell
+python -m pip install django 
+```
+
+Now you should have the django components installed into your system and you should be good to move on to the new step.
+
+This is an intro for people who use the default package manager, i.e. pip.
+If you use any other kind of package manager, look into their documentation in order to install Django.
+
+### Running the server to begin working on the test repo
+```shell
+```
