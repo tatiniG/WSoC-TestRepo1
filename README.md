@@ -98,9 +98,10 @@ In the end, you should see a screen like this, after opening up the local server
 
 ## What next?
 
-There exist two deadlines for submission.
-**September 25th.** For the early birds.
-**October 10th.** For the perfectionists.
+There exist two deadlines for submission.\
+**September 25th.** For the early birds.\
+**October 10th.** For the perfectionists.\
+(The earlier, the better 😉)
 
 If you've done your best with the branch and have sent it in for merging already, you're on the right track.\
 Don't worry about the results, take a break.
