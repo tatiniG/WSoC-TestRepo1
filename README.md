@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="assets/Logo-White-Header.png" alt="header logo">
+</p>
+
 # Winter Season of Code SLR
 Welcome to WSoC, an initiative by the Open Source Community at VIT-AP.\
 In case, you wish to learn more about WSoC, please redirect yourself to the [website](https://www.wsocbyosc.com).
