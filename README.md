@@ -40,6 +40,7 @@ In order to switch to your new branch, you must use the following command.
 ```shell
 git checkout branch_28bce7339
 ```
+<img>
 
 This switches to your new branch, and you can now start working on the repository, on your personal branch.
 
@@ -59,5 +60,21 @@ This is an intro for people who use the default package manager, i.e. pip.
 If you use any other kind of package manager, look into their documentation in order to install Django.
 
 ### Running the server to begin working on the test repo
+
+In order to run the django server, you go into the directory where the python file manage.py resides.
+This program acts as a gateway for many of the django related commands and is very essential for running the server, making migrations, and testing the website.
+
+The below command is to be executed after you have directed yourself into the specific directory where the manage.py file resides.
+
 ```shell
+python manage.py runserver
 ```
+
+If everything has been done and installed correctly, the above given command should give you an output like this.
+
+<img>
+
+This means that you are able to run the server.
+In the end, you should see a screen like this, after opening up the local server on any web browser.
+
+<img>
