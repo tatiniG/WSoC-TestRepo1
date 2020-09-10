@@ -1,10 +1,13 @@
-# WSoC_SLR_2002
+# Winter Season of Code SLR
 Welcome to WSoC, an initiative by the Open Source Community at VIT-AP.\
 In case, you wish to learn more about WSoC, please redirect yourself to the [website](https://www.wsocbyosc.com).
 
-## Project that will be worked on by this team
-  - Developing a centralized hub for all OSC events, with the integration of registering for events, checking in, and attending them on the website.
+## Projects that will be worked on by the teams
+### @vijay - WSoC2001
 
+
+### OSCHub - WSoC2002
+  - Developing a centralized hub for all OSC events, with the integration of registering for events, checking in, and attending them on the website.
   - For admins of the website, they are allowed to manages events and live streams, upload documentation for the specific event, and to check into the attendance sheets for each of the sessions.
 
 ## Details on how to apply for shortlisting
