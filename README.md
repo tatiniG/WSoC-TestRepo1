@@ -8,7 +8,7 @@ In case, you wish to learn more about WSoC, please redirect yourself to the [web
 
 ## Details on how to apply for shortlisting
   - Clone the Repository to your local system.
-  - Create a new child branch to work on, seperate from the master branch.
+  - Create a new child branch to work on, separate from the master branch.
   - The branch must follow a particular naming convention - *branch_registrationno*, example : **branch_28bce7339**, so that it becomes easier for us in processing your application.
   - You can work on either the frontend or the backend challenges, depending on whichever area you wish to focus on.
   - After finishing any task, commit, and push, to the branch that you've created.
