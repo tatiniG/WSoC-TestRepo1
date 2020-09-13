@@ -32,7 +32,7 @@ Remember that you must already have [git](https://git-scm.com/downloads) pre-ins
 In order to clone the repository after you install and set up git on your device, you should execute the following command as given below.
 
 ```shell
-git clone https://github.com/Open-Source-Community-VIT-AP/WSoC-TestRepo.git
+git clone https://github.com/Open-Source-Community-VIT-AP/WSoC-TestRepo1.git
 ```
 This clones the repository into whichever directory in the system that you want the project to reside in.
 Now, in order to create your own branch using git, you can use the following command. 
